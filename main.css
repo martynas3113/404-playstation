@@ -1,0 +1,57 @@
+body > div {
+    width: 100%;
+    background-color: yellow;
+}
+
+header {
+display: inline-block;
+width: 100%;
+background-color: black;
+}
+
+    header > img {
+        display: inline-block;
+        float: right;
+        height: 25px;
+    }
+
+    nav {
+        display: inline-block;
+        width: 100%;
+        background-color: white;
+        
+    }
+
+        nav > img {
+            float: left;
+            height: 40px;
+
+        }
+        a {
+            display: inline-block;
+            line-height: 20px;
+            margin-left: 20px;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+
+        nav > div {
+            display: inline-block;
+            float: right;
+            margin-right: 40px;
+            text-decoration: none;
+        }
+
+            a:nth-of-type(2) {
+                display: inline-block;
+                
+            }
+main {
+    display: inline-block;
+}
+    main > img {
+        display: inline-block;
+    }
+
+
+
